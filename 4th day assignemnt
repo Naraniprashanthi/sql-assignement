@@ -1,0 +1,19 @@
+create table student1
+(
+ id int NOT NULL AUTO_INCREMENT,
+ name varchar(255),
+ age int,
+ gender varchar(25),
+ primary key(id)
+);
+
+insert into student values('pavan',28,'M'); 
+insert into student values('jeeva',28,'M');
+insert into student values('savi',28,'M');  
+
+update student1
+set name='janet' where id=2;
+
+delete from student1 where id=3
+
+select * from student1
