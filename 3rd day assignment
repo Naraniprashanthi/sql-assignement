@@ -1,0 +1,2 @@
+select  salesman.name,customer.cust_name,customer.city
+from salesman inner join customer on saleman.salesman_id=customer.salesman_id
